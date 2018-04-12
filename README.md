@@ -12,8 +12,8 @@ I will update this time to time to add either some enhancements. One of them, ma
 * You don't have to. It's autoboot so just enter the app on your DSi/3DS.
 ###
 ## Video Demonstration
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=9_E4dtAF9xI
-" target="_blank"><img src="http://img.youtube.com/vi/9_E4dtAF9xI/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9_ti46hnb18vY
+" target="_blank"><img src="http://img.youtube.com/vi/9_ti46hnb18vY/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ###
 ## Credits:
