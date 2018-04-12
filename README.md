@@ -13,7 +13,7 @@ I will update this time to time to add either some enhancements. One of them, ma
 ###
 ## Video Demonstration
 <a href="https://www.youtube.com/watch?v=ti46hnb18vY
-" target="_blank"><img src="http://img.youtube.com/vi/ti46hnb18vY.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/ti46hnb18vY-Y/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ###
 ## Credits:
