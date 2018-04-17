@@ -16,7 +16,7 @@
 .section .init
 .arm
 
-#define	REG_BASE	0x04000000
+#define	REG_BASE 0x04000000
 
 /* Courtesy from yellows8 4swordshax repo*/
 #define HEAPCTX_ADR 0x2177090
