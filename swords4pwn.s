@@ -20,9 +20,9 @@
 
 /* Courtesy from yellows8 4swordshax repo*/
 #define HEAPCTX_ADR 0x2177090
-#define HEAP_NEXTCHUNKADR HEAPCTX_ADR+0x58
-#define JUMPADR HEAP_NEXTCHUNKADR+0x10
-#define TARGET_FUNCPTR 0x20c90dc+0x24
+#define HEAP_NEXTCHUNKADR 0x21770E8 @ added by 0x58 from the HEAPCTX ADDRESS
+#define JUMPADR 0x21770F8 @ added by 0x10 from the HEAP_NEXTCHUNKADR
+#define TARGET_FUNCPTR 0x20C9100
 
 
 /* heaphax -- stage 0 */
