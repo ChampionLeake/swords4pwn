@@ -73,5 +73,29 @@ str r1, [r0, #0x60]
 mov r0, #0x05000000
 ldr r1, =((30 << 10) | (19 << 5) | 12)	@ lightblue 5bit RGB color (hex color of #669ef9) http://neildowning.com/HEX_to_RGB_color_converter.php
 strh r1, [r0]
+bl delay
+b code_purple
+
+/* stuckpixel delay loop code */
+delay:
+ldr r0, =10000000 @ time to wait
+loop:
+subs r0, #1 @ subtract 1
+bne loop @ jump back if not zero
+bx lr @ return
+
+code_purple:
+mov r0, #0x04000000
+mov r1, #0
+str r1, [r0, #0x208]
+str r1, [r0, #0x210]
+ldr r2, [r0, #0x214]
+str r2, [r0, #0x214]
+mov r2, #(1<<16)
+str r2, [r0]
+str r1, [r0, #0x60]
+mov r0, #0x05000000
+ldr r1, =((30 << 10) | (12 << 5) | 20)	@ lightpurple 5bit RGB color (hex color of #a566f9) http://neildowning.com/HEX_to_RGB_color_converter.php
+strh r1, [r0]
 b .	@ infinite loop
 .pool
