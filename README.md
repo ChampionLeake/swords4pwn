@@ -17,6 +17,7 @@ I will update this time to time to add either some enhancements or fix builds. O
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ###
 ## Credits:
+* stuckpixel (Helping me with a branch loop)
 * yellows8 (Dealing with my annoyance asking questions and originally exploiting this game)
 * jerbear64 (Compiling and testing US builds)
 * ahezard (JPN tester)
