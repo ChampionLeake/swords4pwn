@@ -58,7 +58,7 @@ b code
 .word 0 @ "The data here will be overwritten by the memalloc code, so branch around it." (yellows8)
 
 /* magic -- stage 1 */
-/* lightblue screen payload */
+/* color screen payload */
 /* thanks Gericom */
 code:
 mov r0, #0x04000000
@@ -73,7 +73,7 @@ str r1, [r0, #0x60]
 mov r0, #0x05000000
 ldr r1, =((30 << 10) | (19 << 5) | 12)	@ lightblue 5bit RGB color (hex color of #669ef9) http://neildowning.com/HEX_to_RGB_color_converter.php
 strh r1, [r0]
-bl delay
+bl delay  @ branches to the delay function 
 b code_purple
 
 /* stuckpixel delay loop code */
