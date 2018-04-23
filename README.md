@@ -2,8 +2,8 @@
 A DSiWare Exploit for The Legend of Zelda: Four Swords Anniversary Edition
 ###
 This was originally exploited by yellows8, so check out his repo of <a href="https://github.com/yellows8/dsi/">4swordshax</a>.
-This is only a stage 1 exploit since I really did this to experiment/learn about DSiWare Exploitation. If you wanted to just boot into the nds homemenu with this, I suggest looking at yellows8's repo.
-I will update this time to time to add either some enhancements or fix builds. One of them, making both screens change color instead of just the top screen.
+This is only a stage 1 exploit since I really did this to experiment/learn about DSiWare Exploitation. If you wanted to just boot into the nds hbmenu with this, I suggest looking at yellows8's repo.
+I will update this time to time to add either some enhancements or fix builds. One of them, making both screens change color instead of just the top screen. I'll maybe add nds-hbmenu support
 ###
 ## What does this do?
 * Runs a stage 1 payload, thus a blue screen on your top screen of your DSi/3DS.
