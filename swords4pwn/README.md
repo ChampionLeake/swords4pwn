@@ -12,4 +12,4 @@
 ## v1.1 Changelog
 * Added *--hax* to the backup.dat file.
 ###
---Prevents the game from loading the payload if one savefile is not valid. Without it, the game would resume as normal after launching the exploit the 2nd time or more.
+-- Prevents the game from loading the payload if one savefile is not valid. Without it, the game would resume as normal after launching the exploit the 2nd time or more.
