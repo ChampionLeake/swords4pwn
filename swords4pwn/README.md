@@ -10,5 +10,6 @@
 ###
 ###
 ## v1.1 Changelog
-* both savefiles (all.dat & backup.dat mounted in the file) contain the necessary blue payload.
---Prevents the game from loading the validated backup.dat/all.dat to resume normal gameplay
+* Added *--hax* to the backup.dat file.
+###
+--Prevents the game from loading the payload if one savefile is not valid. Without it, the game would resume as normal after launching the exploit the 2nd time or more.
