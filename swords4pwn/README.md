@@ -4,6 +4,7 @@
 ###
 ## v1.1b Changelog
 * EUR support fixed
+* Changed payload color
 -- Changed the usual blue to a lightblue. Specifically in hex #669ef9 :p
 ###
 ###
