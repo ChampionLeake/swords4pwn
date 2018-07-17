@@ -95,7 +95,7 @@ mov r2, #(1<<16)
 str r2, [r0]
 str r1, [r0, #0x60]
 mov r0, #0x05000000
-ldr r1, =((30 << 10) | (12 << 5) | 20)	@ lightpurple 5bit RGB color (hex color of #a566f9) http://neildowning.com/HEX_to_RGB_color_converter.php
+ldr r1, =((25 << 10) | (8 << 5) | 11)	@ lightpurple 5bit RGB color (hex color of #a566f9) http://neildowning.com/HEX_to_RGB_color_converter.php
 strh r1, [r0]
 b .	@ infinite loop
 .pool
